@@ -16,7 +16,7 @@ export default function Navigation() {
             className="flex-none text-xl font-semibold dark:text-white"
             href="/"
           >
-             Acknowledging Our Lands
+            Acknowledging Our Lands
           </a>
           <div className="sm:hidden">
             <button
@@ -62,16 +62,37 @@ export default function Navigation() {
             </button>
           </div>
         </div>
-        <div className={`hs-collapse overflow-hidden transition-all duration-300 ${isNavOpen ? "visible" : "hidden"} sm:block`}>
-      <div className="flex flex-col gap-3 mt-3 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5">
-         
-      <Link href='/' className="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600" aria-current="page">Landing</Link>
-      <Link href='/land-acknowledgement' className="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">Land Acknowledgement</Link>
-      <Link href='/search' className="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">Search</Link>
-      <Link href='/learn-more' className="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600">Learn More</Link>
-
-            
-    
+        <div
+          className={`hs-collapse overflow-hidden transition-all duration-300 ${
+            isNavOpen ? "visible" : "hidden"
+          } sm:block`}
+        >
+          <div className="flex flex-col gap-3 mt-3 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5">
+            <Link
+              href="/"
+              className="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+              aria-current="page"
+            >
+              Home
+            </Link>
+            <Link
+              href="/land-acknowledgement"
+              className="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+            >
+              Land Acknowledgement
+            </Link>
+            <Link
+              href="/search"
+              className="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+            >
+              Search
+            </Link>
+            <Link
+              href="/learn-more"
+              className="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+            >
+              Learn More
+            </Link>
           </div>
         </div>
       </nav>
