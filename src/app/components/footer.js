@@ -8,12 +8,12 @@ const footer = () => {
       <div className="text-center">
         <div className="mt-3">
           <div className="flex justify-center items-center">
-            <Image
+            {/* <Image
               width={150}
               height={100}
               src={everyChild}
               alt="Every Child Matters Image"
-            />
+            /> */}
           </div>
           <p className="text-gray-500 mt-4">
             Made with ❤️ by Acknowledging Our Lands. All rights reserved.

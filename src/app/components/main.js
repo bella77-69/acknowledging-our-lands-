@@ -13,7 +13,10 @@ const main = () => {
           {/* <h2 className="mb-4 text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             Territory acknowledgment is
           </h2> */}
-          <p className="mb-4"><span className="font-bold sm:text-lg text-xl text-gray-300">Territory acknowledgment is </span> 
+          <p className="mb-4">
+            <span className="font-bold sm:text-lg text-xl text-gray-300">
+              Territory acknowledgment is{" "}
+            </span>
             crucial to respecting Indigenous presence and land rights,
             highlighting the ongoing impacts of colonialism. It's vital during
             events to express solidarity, fostering reconciliation and promoting
@@ -47,7 +50,10 @@ const main = () => {
           {/* <h2 className="mb-4 text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             With Acknowledging Our Lands,
           </h2> */}
-          <p className="mb-4"><span className="font-bold sm:text-lg text-xl text-gray-300">With Acknowledging Our Lands, </span>
+          <p className="mb-4">
+            <span className="font-bold sm:text-lg text-xl text-gray-300">
+              With Acknowledging Our Lands,{" "}
+            </span>
             we aim to promote understanding and empathy. By helping you identify
             your location and providing information on the Indigenous
             territories you are on, our app encourages a deeper connection to
@@ -93,7 +99,10 @@ const main = () => {
           {/* <h2 className="mb-4 text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             With Acknowledging Our Lands,
           </h2> */}
-          <p className="mb-4"><span className="font-bold sm:text-lg text-xl text-gray-300">With Acknowledging Our Lands, </span>
+          <p className="mb-4">
+            <span className="font-bold sm:text-lg text-xl text-gray-300">
+              With Acknowledging Our Lands,{" "}
+            </span>
             we aim to promote understanding and empathy. By helping you identify
             your location and providing information on the Indigenous
             territories you are on, our app encourages a deeper connection to
@@ -111,14 +120,14 @@ const main = () => {
       <div className="text-center p-4">
         <a
           className="inline-flex justify-center items-center gap-x-2 text-center bg-gray-600 
-    hover:bg-gray-700  // Added this line for hover effect
+    hover:bg-gray-700
     text-white text-xs sm:text-sm md:text-base font-medium rounded-full 
     hover:from-gray-700 hover:to-gray-700 shadow-lg hover:shadow-xl border border-transparent 
     focus:outline-none focus:ring-2 focus:ring-gray-600 focus:ring-offset-2 focus:ring-offset-gray-500 
     transition py-2 px-4 md:px-6 dark:focus:ring-offset-gray-900"
-          href="/land-acknowledgement"
+          href="/learn-more"
         >
-          Get Your Land Acknowledgment
+          Learn More
           <svg
             className="flex-shrink-0 w-3 h-3 sm:w-4 sm:h-4"
             xmlns="http://www.w3.org/2000/svg"
