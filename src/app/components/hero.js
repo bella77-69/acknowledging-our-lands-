@@ -43,7 +43,7 @@ function Hero() {
           <div className="text-center">
             <a
               className="inline-flex justify-center items-center gap-x-2 text-center bg-gray-600 
-              hover:bg-gray-700  // Added this line for hover effect
+              hover:bg-gray-700
               text-white text-xs sm:text-sm md:text-base font-medium rounded-full 
               hover:from-gray-700 hover:to-gray-700 shadow-lg hover:shadow-xl border border-transparent 
               focus:outline-none focus:ring-2 focus:ring-gray-600 focus:ring-offset-2 focus:ring-offset-gray-500 
