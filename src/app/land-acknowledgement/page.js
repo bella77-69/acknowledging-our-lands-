@@ -72,7 +72,7 @@ const Location = () => {
   }, []);
 
   return (
-    <section className="flex flex-col font-poppins  bg-gray-800">
+    <section className="flex flex-col font-poppins bg-gray-800">
       {/* <div className="relative bg-center bg-no-repeat bg-cover"> */}
         {/* <div class="absolute top-0 left-0 w-full h-full bg-gray-800"> */}
         {/* <div className="p-8"> */}
