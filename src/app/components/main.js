@@ -14,7 +14,7 @@ const main = () => {
             Territory acknowledgment is
           </h2> */}
           <p className="mb-4">
-            <span className="font-bold sm:text-lg text-xl text-gray-300">
+            <span className="font-black sm:text-lg text-xl text-gray-400">
               Territory acknowledgment is{" "}
             </span>
             crucial to respecting Indigenous presence and land rights,
@@ -51,7 +51,7 @@ const main = () => {
             With Acknowledging Our Lands,
           </h2> */}
           <p className="mb-4">
-            <span className="font-bold sm:text-lg text-xl text-gray-300">
+          <span className="font-black sm:text-lg text-xl text-gray-400">
               With Acknowledging Our Lands,{" "}
             </span>
             we aim to promote understanding and empathy. By helping you identify
@@ -100,7 +100,7 @@ const main = () => {
             With Acknowledging Our Lands,
           </h2> */}
           <p className="mb-4">
-            <span className="font-bold sm:text-lg text-xl text-gray-300">
+          <span className="font-black sm:text-lg text-xl text-gray-400">
               With Acknowledging Our Lands,{" "}
             </span>
             we aim to promote understanding and empathy. By helping you identify

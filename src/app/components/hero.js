@@ -12,7 +12,7 @@ function Hero() {
       <div className="h-full flex flex-col justify-center items-center">
         <div className="max-w-[85rem] w-full px-4 sm:px-6 lg:px-8 py-12 sm:py-20 lg:py-32 space-y-6 sm:space-y-8">
           <div className="max-w-3xl text-center mx-auto">
-            <h1 className="font-semibold text-gray-200 text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight">
+            <h1 className="font-black text-gray-400 text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight">
               Welcome to Acknowledging Our Lands
             </h1>
           </div>
