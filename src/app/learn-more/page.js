@@ -32,13 +32,13 @@ function LearnMore(props) {
   const questionElements = questions.map((questions, index) => (
     <div
       key={index}
-      className="flex flex-col justify-between w-full px-6 py-4 mb-4 bg-gray-100 border dark:border-gray-700 rounded-3xl dark:bg-gray-700"
+      className="flex flex-col justify-between w-full px-6 py-4 mb-4 bg-gray-100 border dark:border-gray-700 rounded-3xl dark:bg-gray-800"
     >
       <div
         className="flex items-center justify-between"
         onClick={(e) => toggleAnswer(e, index)}
       >
-        <span className="font-bold dark:text-[#ffffff]">{questions}</span>
+        <span className="font-bold text-gray-300">{questions}</span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="16"
@@ -57,7 +57,7 @@ function LearnMore(props) {
       </div>
 
       {isOpen === index && (
-        <p className="text-sm text-gray-500 dark:text-gray-400 pt-2">
+        <p className="text-sm text-gray-300 pt-2">
           {answers[index]}
         </p>
       )}
@@ -65,6 +65,7 @@ function LearnMore(props) {
   ));
 
   return (
+  
     <div className="flex flex-wrap items-center justify-center">
       {questionElements}
       <div className="flex flex-wrap items-center justify-center">
@@ -72,7 +73,7 @@ function LearnMore(props) {
           href="https://ehprnh2mwo3.exactdn.com/wp-content/uploads/2021/01/Calls_to_Action_English2.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex flex-col justify-between w-full px-6 py-4 mb-4 bg-gray-100 border dark:border-gray-700 rounded-3xl dark:bg-gray-700 text-[#ffffff] hover:text-gray-700 hover:bg-gray-500 dark:bg-gray-700 dark:hover:text-gray-200 dark:hover:bg-gray-600"
+          className="flex flex-col justify-between w-full px-6 py-4 mb-4  border dark:border-gray-700 rounded-3xl  text-gray-300 hover:text-gray-500 dark:bg-gray-800 dark:hover:text-gray-200 dark:hover:bg-gray-600"
         >
           Truth and Reconciliation Commission's Calls to Action
         </a>
@@ -80,7 +81,7 @@ function LearnMore(props) {
           href="https://www.justice.gc.ca/eng/declaration/un_declaration_EN1.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex flex-col justify-between w-full px-6 py-4 mb-4 bg-gray-100 border dark:border-gray-700 rounded-3xl dark:bg-gray-700 text-[#ffffff] hover:text-gray-700 hover:bg-gray-500 dark:bg-gray-700 dark:hover:text-gray-200 dark:hover:bg-gray-600"
+          className="flex flex-col justify-between w-full px-6 py-4 mb-4  border dark:border-gray-700 rounded-3xl  text-gray-300 hover:text-gray-500 dark:bg-gray-800 dark:hover:text-gray-200 dark:hover:bg-gray-600"
         >
           United Nations Declaration on the Rights of Indigenous Peoples
         </a>
@@ -91,12 +92,12 @@ function LearnMore(props) {
 
 function FAQ() {
   return (
-    <section className="bg-gray-800 text-gray-100 py-8 min-h-screen">
-      <div className="container flex flex-col justify-center p-4 mx-auto md:p-8">
-        <h2 className="mb-12 text-4xl font-bold text-center sm:text-5xl">
+    <section class="bg-gray-800 text-gray-100 py-8 min-h-screen">
+      <div class="container flex flex-col justify-center p-4 mx-auto md:p-8">
+        <h2 class="mb-12 text-4xl font-bold text-center sm:text-5xl">
          Learn More
         </h2>
-        <div className="flex flex-col divide-y sm:px-8 lg:px-12 xl:px-32 divide-gray-700">
+        <div class="flex flex-col divide-y sm:px-8 lg:px-12 xl:px-32 divide-gray-700">
           <LearnMore />
         </div>
       </div>

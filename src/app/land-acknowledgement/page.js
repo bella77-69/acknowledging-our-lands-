@@ -72,17 +72,17 @@ const Location = () => {
   }, []);
 
   return (
-    <section className="flex flex-col font-poppins bg-gray-800">
+    <section className="flex flex-col bg-gray-800 py-10 min-h-screen">
       {/* <div className="relative bg-center bg-no-repeat bg-cover"> */}
         {/* <div class="absolute top-0 left-0 w-full h-full bg-gray-800"> */}
         {/* <div className="p-8"> */}
         {latitude && longitude ? (
           <div className="px-4 py-4 mx-auto lg:py-10 md:px-7">
             <div className="max-w-3xl mx-auto text-center">
-              <h2 className="text-2xl font-bold tracking-wide text-gray-100 my-7 dark:text-gray-300 lg:text-6xl">
+              <h2 className="text-4xl font-black tracking-wide text-gray-400 my-7 lg:text-6xl">
                 Land Acknowledgement
               </h2>
-              <span className="text-lg font-bold text-blue-300 dark:text-blue-200">
+              <span className="text-lg font-bold text-gray-200">
                 Your Current Location:
               </span>
               <p className="mb-10 text-base font-medium text-gray-300 dark:text-gray-400 md:text-lg">
