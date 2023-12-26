@@ -92,12 +92,12 @@ function LearnMore(props) {
 
 function FAQ() {
   return (
-    <section class="bg-gray-800 text-gray-100 py-8 min-h-screen">
-      <div class="container flex flex-col justify-center p-4 mx-auto md:p-8">
-        <h2 class="mb-12 text-4xl font-bold text-center sm:text-5xl">
+    <section className="bg-gray-800 text-gray-100 py-8 min-h-screen">
+      <div className="container flex flex-col justify-center p-4 mx-auto md:p-8">
+        <h2 className="mb-12 text-4xl font-bold text-center sm:text-5xl">
          Learn More
         </h2>
-        <div class="flex flex-col divide-y sm:px-8 lg:px-12 xl:px-32 divide-gray-700">
+        <div className="flex flex-col divide-y sm:px-8 lg:px-12 xl:px-32 divide-gray-700">
           <LearnMore />
         </div>
       </div>
